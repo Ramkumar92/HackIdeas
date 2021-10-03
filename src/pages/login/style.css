@@ -1,0 +1,17 @@
+.login__container {
+    width: 320px;
+    border-radius: 8px;
+    border: 1px solid var(--blackAlpha40);
+    padding: 24px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.login__header {
+    background:linear-gradient(to right, var(--blue900) 0%, var(--blue500) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
