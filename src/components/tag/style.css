@@ -1,0 +1,16 @@
+
+.tag { 
+    margin: 2px;
+    padding: 4px;
+    border-radius: 4px;
+    display: inline-block !important;
+    cursor: pointer;
+    opacity: 0.5;
+    filter: grayscale(50%);
+
+}
+
+.tag--selected {
+    opacity: 1;
+    filter: grayscale(0%);
+}

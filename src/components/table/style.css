@@ -36,3 +36,20 @@
     transform: rotate(270deg) scale(0.8);
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.914 13H21a1 1 0 100-2H5.914L11.5 5.414A1 1 0 0010.086 4l-8 8 8 8a1 1 0 001.414-1.414L5.914 13z' fill='%233d51d4'/%3E%3C/svg%3E");
 }
+
+.table__upvote {
+    margin-left: 12px;
+    line-height: 24px;
+}
+
+.table__upvote-icon { 
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.table__upvote-icon--active { 
+    vertical-align: middle;
+    cursor: pointer;
+    fill: blue;
+}
+

@@ -14,7 +14,7 @@
 
 .app__table-container {
     height: calc(100vh - 85px);
-    width: 930px;
+    width: 1280px;
     max-width: 100vw;
     overflow: auto;
     overflow-y: hidden;
